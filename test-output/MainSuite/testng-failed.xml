@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MainSuite]">
+  <parameter name="projectDirectory" value="C:\\Users\\Augusto\\workspace\\MainSuite"/>
+  <parameter name="xlsDirectory" value="C:\\Users\\Augusto\\workspace\\MainSuite\\Sites.xls"/>
+  <parameter name="sheetsToWork" value="example"/>
+  <parameter name="webDriver" value="firefox"/>
+  <parameter name="proxyDirecc" value="NOPROXY"/>
+  <test name="Example Test on Chrome(failed)">
+    <parameter name="webDriver" value="firefox"/>
+    <classes>
+      <class name="tests.Example">
+        <methods>
+          <include name="before"/>
+          <include name="test" invocation-numbers="0"/>
+          <include name="after"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- tests.Example -->
+    </classes>
+  </test> <!-- Example Test on Chrome(failed) -->
+</suite> <!-- Failed suite [MainSuite] -->

@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="MainSuite" verbose="1" >
+    
+    <!-- Here goes the directory of the project -->
+    <parameter name="projectDirectory" value="C:\\Users\\"></parameter>
+    
+    <!-- Here goes the directory of the xls file -->
+    <parameter name="xlsDirectory" value="C:\\Users\\"></parameter>
+    
+    <!-- Here goes the sheets taht are going to be extracted from the xls file -->
+    <parameter name="sheetsToWork" value="example"></parameter>
+    
+    <!-- Here goes the proxy direction, if no proxy is going to be used it must have NOPROXY -->
+	<parameter name="proxyDirecc" value="NOPROXY"></parameter>
+	
+	<test name="Example Test on Chrome">
+  		
+  		<!-- Here goes the webdriver that is going to be used on the test, it can be: firefox,chrome,explorer or safari. For chrome and explorer the server driver is needed in teh project directory -->
+  		<parameter name="webDriver" value="chrome"></parameter>
+
+		<classes>
+		    
+		    <class name="tests.Example"/>
+
+    	</classes>
+
+  	</test>
+	
+</suite>

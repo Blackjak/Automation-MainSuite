@@ -9,4 +9,6 @@ xmls package: Is where all the xml files goes.
 
 tests package: Is where all the test of the project goes.
 
+Chromedriver download directory: http://chromedriver.storage.googleapis.com/index.html
+
 If you have any question about the project or idea to improve it just email me! agost.8@gmail.com.

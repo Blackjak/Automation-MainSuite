@@ -1,13 +1,22 @@
 Automation-MainSuite
 ====================
 
-An automarion java project that use Selenium, TestNG, Apache-POI and BrowserMob Proxy libraries. Very easy to use, just open a webdriver, test and then close it.
+An automation java project that use Selenium, TestNG, Apache-POI and BrowserMob Proxy libraries. Very easy to use, just open a webdriver, do the test and then close it.
 
-main package: Is where the main classes of the project goes, in MainSuite it open and close the webdrivers and the server, it also open a xls file and get the required sheets from it. In the LoadSite class it handles the load of the urls on the webdrivers, the SiteData class defines an object to handle the all the data needed after loading an url on a webdriver .
+Packages:
 
-xmls package: Is where all the xml files goes.
+-main package: Is where the main classes of the project goes, in MainSuite it open and close the webdrivers and the server, it also open a xls file and get the required sheets from it. In the LoadSite class it handles the load of the urls on the webdrivers, the SiteData class defines an object to handle the all the data needed after loading an url on a webdriver.
 
-tests package: Is where all the test of the project goes.
+-xmls package: Is where all the xml files goes.
+
+-tests package: Is where all the test of the project goes.
+
+Libraries used:
+
+-Selenium 2.37.
+-BrowserMob Proxy on https://github.com/lightbody/browsermob-proxy.
+-Apache-POI 3.9.
+-Benchlab Client Runtime.
 
 Chromedriver download directory: http://chromedriver.storage.googleapis.com/index.html
 
